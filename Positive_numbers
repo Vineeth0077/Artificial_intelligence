@@ -1,0 +1,16 @@
+
+list1= [12, -7, 5, 64, -14] 
+list2 = [12, 14, -95, 3]
+print("list1 :",list1)
+print('All the positive numbers from the list1 are : ')
+for i in range(len(list1)):
+    if(list1[i]>0):
+        print(list1[i])
+
+print(" ")        
+print("list2 :",list2)
+print('All the positive numbers from the list2 are : ')
+for j in range(len(list2)):
+    if(list2[j]>0):
+        print(list2[j])
+
